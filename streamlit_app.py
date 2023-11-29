@@ -9,11 +9,12 @@ Let's try!
 
 """
 # Bouton
-if st.button("Appuyez-moi !"):
-    st.success(f"Vous avez appuyé sur le bouton. Vous avez saisi : {'Good job!'}")
+if st.button("Push!"):
+    st.success(f"You pushed: {'Good boy!'}")
 
 # Sélecteur de date
-selected_date = st.date_input("Sélectionnez une date")
+start_date = st.date_input("Select a beginning day")
+end_date = st.date_input("Select an end day")
 
 # Sélecteur de temps
 selected_time = st.time_input("Sélectionnez l'heure")
