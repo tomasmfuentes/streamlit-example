@@ -13,10 +13,8 @@ if st.button("Push!"):
     st.success(f"You pushed: {'Good boy!'}")
 
 # Sélecteur de date
-start_date = st.date_input("Select a beginning day")
-end_date = st.date_input("Select an end day")
+start_date = st.datetime_input("Select beginning day and time")
+end_date = st.datetime_input("Select end day and time")
 
-# Sélecteur de temps
-selected_time = st.time_input("Sélectionnez l'heure")
 
 
