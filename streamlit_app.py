@@ -10,7 +10,7 @@ Let's try!
 """
 # Bouton
 if st.button("Appuyez-moi !"):
-    st.success(f"Vous avez appuyé sur le bouton. Vous avez saisi : {user_input}")
+    st.success(f"Vous avez appuyé sur le bouton. Vous avez saisi : {'Good job!'}")
 
 # Sélecteur de date
 selected_date = st.date_input("Sélectionnez une date")
